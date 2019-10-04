@@ -10,7 +10,8 @@ class App extends React.Component {
         <button onClick={this.increment10.bind(this)}>+10</button>
         <button onClick={this.increment.bind(this)}>+</button>
         <output>{this.state.counter}</output>
-        <button onClick={this.decrement.bind(this)}>-</button>         <button onClick={this.decrement10.bind(this)}>-10</button>
+        <button onClick={this.decrement.bind(this)}>-</button>         
+        <button onClick={this.decrement10.bind(this)}>-10</button>
       </div>
     );
   }

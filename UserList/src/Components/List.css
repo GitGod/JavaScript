@@ -1,0 +1,16 @@
+.fff {
+    align-items: center;
+    position:relative; 
+    
+  }
+th{
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }

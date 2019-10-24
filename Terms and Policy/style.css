@@ -21,49 +21,43 @@ header {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  border: 1px solid grey;
 }
-.lineleft {
-  width: 30px;
-  margin-top: 30px;
-  border-bottom: solid 2px rgb(204, 211, 255);
-  display:inline-block
-  margin-right: 36px;
-}
-.lineright {
+.lineLeft {
   width: 30px;
   border-bottom: solid 2px rgb(204, 211, 255);
-  display:inline-block
-  margin-left: 31px;
+  display:inline; 
   position: absolute;
-  right: 0px;
+  margin: 10px 36px 0px 0px;
+}
+.lineRight {
+ width: 30px;
+ border-bottom: solid 2px rgb(204, 211, 255);
+ display:inline;;
+ position: absolute;
+ right: 0px;
+ margin: 4px 0px 0px 31px;
 }
 .welcome{
   width: auto;
-  margin: 0px 30px 0px 30px;
-  padding-top: 70px;
+  margin: 20px 30px 20px 30px;
 }
 .data{
-  height: 36px; 
+  height: auto; 
   text-align: center;
-  margin: 0px 0px 20px 0px;
-  display:inline-block
-  right: 50px;
+  display:inline;
+ 
+
 }
 
 .text{
   width: auto;
   height: auto; 
-  margin:0px 30px 0px 30px;
+  margin:20px 30px 0px 30px;
   overflow-x: scroll;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   font-family: Comfortaa;
   clear: left;
-}
-img{
-  width: auto;
-  max-height: 64px; 
 }
 h1 {
   font-size: 24px;
@@ -76,23 +70,23 @@ h1 {
 h2 {
   text-align: center;
   font-size: 14px;
-  font-weight: 100;
   color:rgb(140, 142, 152);
   font-family: Comfortaa;
+  font-weight: 400;
 }
 
 h3 {
   color:rgb(75, 94, 127);
   font-size: 18px;
-  font-weight: 700;
   font-family: 'Comfortaa';
-  margin:5px 30px 5px 30px;
+  margin:9px 0px 9px 0px;
+  font-weight: 400;
 }
 p {
   font-size: 12px;
   font-family: 'Comfortaa';
-  margin:0px 30px 0px 30px;
   color:rgb(140, 142, 152);
+  font-weight: 400;
 }
 
 
